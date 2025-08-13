@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Development</title>
+</head>
+<body>
+
+<!-- Page Heading -->
+<h1>Welcome to Our Learning Page</h1>
+<p>Fastrack your learning process.</p>
+
+<!-- Unordered List Example -->
+<h2>Topics We Will Learn</h2>
+<ul>
+    <li>HTML Basics</li>
+    <li>CSS Styling</li>
+    <li>JavaScript Introduction</li>
+</ul>
+
+<!-- Table Example -->
+<h2>Sample Price Table</h2>
+<table border="1">
+    <tr>
+        <th>Course</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>HTML Basics</td>
+        <td>$50</td>
+    </tr>
+    <tr>
+        <td>CSS Styling</td>
+        <td>$60</td>
+    </tr>
+    <tr>
+        <td>JavaScript Intro</td>
+        <td>$70</td>
+    </tr>
+</table>
+
+<!-- Media Example -->
+<h2>Watch a Sample Video</h2>
+<video width="320" controls>
+    <source src="c:\Users\user\Downloads\6804117-uhd_4096_2160_25fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!-- HTML5 Form Example -->
+<h2>Register for a Course</h2>
+<form action="#" method="post">
+
+    <label>Full Name:</label>
+    <input type="text" name="fullname" placeholder="Enter your name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="Enter your email" required>
+
+    <label>Choose Course:</label>
+    <select name="course" required>
+        <option value="">-- Select --</option>
+        <option value="html">HTML Basics</option>
+        <option value="css">CSS Styling</option>
+        <option value="js">JavaScript Intro</option>
+    </select>
+
+    <label>Preferred Start Date:</label>
+    <input type="date" name="startdate" required>
+
+    <label>Comments:</label>
+    <textarea name="comments" placeholder="Write something here..."></textarea>
+
+    <label>Reference Code:</label>
+    <input type="text" value="REF-1234" readonly>
+
+    <br><br>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
